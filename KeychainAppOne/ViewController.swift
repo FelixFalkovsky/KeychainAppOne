@@ -11,7 +11,7 @@ import KeychainSwift
 struct Keys {
     static let name = "name"
     static let password = "password"
-    static let keyPrefix = "rebeloper_"
+    static let keyPrefix = ""
 }
 
 class ViewController: UIViewController {

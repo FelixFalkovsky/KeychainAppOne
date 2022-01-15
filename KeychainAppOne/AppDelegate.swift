@@ -14,7 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let keychain = KeychainSwift()
-        let accessGroup = "group.com.mobiledevelopment.rss" // added prefix for group
+        let accessGroup = "RF9T8S9829.com.mobiledevelopment.rss " // added prefix for group
+        //let appIdPrefix = Bundle.main.object(forInfoDictionaryKey: "AppIdentifierPrefix")
+        // group.RF9T8S9829.com.mobiledevelopment.rss
         SharedKeychainSwift.start(withKeychain: keychain, accessGroup: accessGroup)
         return true
     }

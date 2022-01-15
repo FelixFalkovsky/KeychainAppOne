@@ -1,0 +1,6 @@
+framework module Pods_ExtensionApp {
+  umbrella header "Pods-ExtensionApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		278816E155E94D8051C4A066 /* Pods_KeychainAppTwo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567D4846EFE7569501CCCB80 /* Pods_KeychainAppTwo.framework */; };
+		06313050428EBF6215AB90FE /* Pods_ExtensionApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC05B4A2744561D26C81AC3 /* Pods_ExtensionApp.framework */; };
 		86441EC61B84B31CADD6AFD6 /* Pods_KeychainAppOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094C9F113B2C058B38528B4A /* Pods_KeychainAppOne.framework */; };
 		DC2C0D1C278EB3AA00F6195B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0D1B278EB3AA00F6195B /* AppDelegate.swift */; };
 		DC2C0D1E278EB3AA00F6195B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0D1D278EB3AA00F6195B /* SceneDelegate.swift */; };
@@ -15,23 +15,24 @@
 		DC2C0D23278EB3AA00F6195B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2C0D21278EB3AA00F6195B /* Main.storyboard */; };
 		DC2C0D25278EB3AD00F6195B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2C0D24278EB3AD00F6195B /* Assets.xcassets */; };
 		DC2C0D28278EB3AD00F6195B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2C0D26278EB3AD00F6195B /* LaunchScreen.storyboard */; };
-		DC2C0D7F278EE3F000F6195B /* SharedKeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0D7E278EE3EF00F6195B /* SharedKeychainSwift.swift */; };
 		DC2C0DAA278F2E0F00F6195B /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0DA9278F2E0F00F6195B /* GetViewController.swift */; };
-		DC2C0DB527900CBF00F6195B /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2C0DB427900CBF00F6195B /* UniformTypeIdentifiers.framework */; };
-		DC2C0DB827900CBF00F6195B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2C0DB727900CBF00F6195B /* Media.xcassets */; };
-		DC2C0DBA27900CBF00F6195B /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0DB927900CBF00F6195B /* ActionViewController.swift */; };
-		DC2C0DBD27900CBF00F6195B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2C0DBB27900CBF00F6195B /* MainInterface.storyboard */; };
-		DC2C0DC127900CBF00F6195B /* KeychainAppTwo.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC2C0DB327900CBF00F6195B /* KeychainAppTwo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DC6E4CF1279082C100EC52B6 /* SharedKeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0D7E278EE3EF00F6195B /* SharedKeychainSwift.swift */; };
+		DC8772752791FC6E00C7A62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8772742791FC6E00C7A62C /* Assets.xcassets */; };
+		DC87727B2791FC6F00C7A62C /* ExtensionApp MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DC87727A2791FC6F00C7A62C /* ExtensionApp MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DC87727E2791FC6F00C7A62C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC87725C2791E72900C7A62C /* Messages.framework */; };
+		DC8772842791FC6F00C7A62C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8772822791FC6F00C7A62C /* MainInterface.storyboard */; };
+		DC8772862791FC7100C7A62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8772852791FC7100C7A62C /* Assets.xcassets */; };
+		DC87729C2791FFBA00C7A62C /* SharedKeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0D7E278EE3EF00F6195B /* SharedKeychainSwift.swift */; };
+		DC87729F2792000F00C7A62C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8772802791FC6F00C7A62C /* MessagesViewController.swift */; };
+		DC8772A02792055E00C7A62C /* SharedKeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2C0D7E278EE3EF00F6195B /* SharedKeychainSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DC2C0DBF27900CBF00F6195B /* PBXContainerItemProxy */ = {
+		DC87727C2791FC6F00C7A62C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC2C0D10278EB3AA00F6195B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC2C0DB227900CBF00F6195B;
-			remoteInfo = KeychainAppTwo;
+			remoteGlobalIDString = DC8772792791FC6F00C7A62C;
+			remoteInfo = "ExtensionApp MessagesExtension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,7 +43,17 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				DC2C0DC127900CBF00F6195B /* KeychainAppTwo.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DC87728B2791FC7100C7A62C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC87727B2791FC6F00C7A62C /* ExtensionApp MessagesExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 1;
@@ -51,10 +62,16 @@
 
 /* Begin PBXFileReference section */
 		094C9F113B2C058B38528B4A /* Pods_KeychainAppOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainAppOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE01C4CBD6589316D61BF60 /* Pods-ExtensionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionApp.release.xcconfig"; path = "Target Support Files/Pods-ExtensionApp/Pods-ExtensionApp.release.xcconfig"; sourceTree = "<group>"; };
 		2C71F36245B5188DAA675C62 /* Pods-KeychainAppOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainAppOne.debug.xcconfig"; path = "Target Support Files/Pods-KeychainAppOne/Pods-KeychainAppOne.debug.xcconfig"; sourceTree = "<group>"; };
+		388B1898FA3DCE17ADE2E5CE /* Pods-Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extension.release.xcconfig"; path = "Target Support Files/Pods-Extension/Pods-Extension.release.xcconfig"; sourceTree = "<group>"; };
 		567D4846EFE7569501CCCB80 /* Pods_KeychainAppTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainAppTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5995BDDB3E03D8B65BD7B8BA /* Pods-KeychainAppTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainAppTwo.debug.xcconfig"; path = "Target Support Files/Pods-KeychainAppTwo/Pods-KeychainAppTwo.debug.xcconfig"; sourceTree = "<group>"; };
+		75DBD277C45740EFEEDCB2A8 /* Pods-ExtensionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionApp.debug.xcconfig"; path = "Target Support Files/Pods-ExtensionApp/Pods-ExtensionApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC05B4A2744561D26C81AC3 /* Pods_ExtensionApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtensionApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB0D776678690BEDC1BF12A /* Pods-KeychainAppOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainAppOne.release.xcconfig"; path = "Target Support Files/Pods-KeychainAppOne/Pods-KeychainAppOne.release.xcconfig"; sourceTree = "<group>"; };
+		D11396875CB00F5D0D7A056B /* Pods-Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extension.debug.xcconfig"; path = "Target Support Files/Pods-Extension/Pods-Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		D9588A30DE19A3285F00E7C5 /* Pods_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0F47FC0FDFFC638B1906CC /* Pods-KeychainAppTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainAppTwo.release.xcconfig"; path = "Target Support Files/Pods-KeychainAppTwo/Pods-KeychainAppTwo.release.xcconfig"; sourceTree = "<group>"; };
 		DC2C0D18278EB3AA00F6195B /* KeychainAppOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainAppOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2C0D1B278EB3AA00F6195B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,20 +81,31 @@
 		DC2C0D24278EB3AD00F6195B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC2C0D27278EB3AD00F6195B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC2C0D29278EB3AD00F6195B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC2C0D2F278EDC9D00F6195B /* KeychainAppOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainAppOne.entitlements; sourceTree = "<group>"; };
 		DC2C0D35278EDE9700F6195B /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		DC2C0D7E278EE3EF00F6195B /* SharedKeychainSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedKeychainSwift.swift; path = ../../../../Downloads/SharedKeychainSwiftResources/SharedKeychainSwift/SharedKeychainSwift.swift; sourceTree = "<group>"; };
 		DC2C0DA9278F2E0F00F6195B /* GetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
-		DC2C0DB327900CBF00F6195B /* KeychainAppTwo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeychainAppTwo.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2C0DB427900CBF00F6195B /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
-		DC2C0DB727900CBF00F6195B /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		DC2C0DB927900CBF00F6195B /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
-		DC2C0DBC27900CBF00F6195B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		DC2C0DBE27900CBF00F6195B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC2C0DC527900D3A00F6195B /* KeychainAppTwo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainAppTwo.entitlements; sourceTree = "<group>"; };
+		DC87725C2791E72900C7A62C /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		DC8772722791FC6D00C7A62C /* ExtensionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8772742791FC6E00C7A62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC87727A2791FC6F00C7A62C /* ExtensionApp MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ExtensionApp MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8772802791FC6F00C7A62C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		DC8772832791FC6F00C7A62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		DC8772852791FC7100C7A62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC8772872791FC7100C7A62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC87728F2791FCC800C7A62C /* ExtensionApp MessagesExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ExtensionApp MessagesExtensionDebug.entitlements"; sourceTree = "<group>"; };
+		DC8772AB2792DF3700C7A62C /* KeychainAppOneDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeychainAppOneDebug.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		022A53453C8E12FF7D9427CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06313050428EBF6215AB90FE /* Pods_ExtensionApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC2C0D15278EB3AA00F6195B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,12 +114,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC2C0DB027900CBF00F6195B /* Frameworks */ = {
+		DC8772772791FC6F00C7A62C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2C0DB527900CBF00F6195B /* UniformTypeIdentifiers.framework in Frameworks */,
-				278816E155E94D8051C4A066 /* Pods_KeychainAppTwo.framework in Frameworks */,
+				DC87727E2791FC6F00C7A62C /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +132,10 @@
 				9EB0D776678690BEDC1BF12A /* Pods-KeychainAppOne.release.xcconfig */,
 				5995BDDB3E03D8B65BD7B8BA /* Pods-KeychainAppTwo.debug.xcconfig */,
 				DA0F47FC0FDFFC638B1906CC /* Pods-KeychainAppTwo.release.xcconfig */,
+				D11396875CB00F5D0D7A056B /* Pods-Extension.debug.xcconfig */,
+				388B1898FA3DCE17ADE2E5CE /* Pods-Extension.release.xcconfig */,
+				75DBD277C45740EFEEDCB2A8 /* Pods-ExtensionApp.debug.xcconfig */,
+				1CE01C4CBD6589316D61BF60 /* Pods-ExtensionApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -116,6 +147,9 @@
 				DC2C0D35278EDE9700F6195B /* AuthenticationServices.framework */,
 				DC2C0DB427900CBF00F6195B /* UniformTypeIdentifiers.framework */,
 				567D4846EFE7569501CCCB80 /* Pods_KeychainAppTwo.framework */,
+				DC87725C2791E72900C7A62C /* Messages.framework */,
+				D9588A30DE19A3285F00E7C5 /* Pods_Extension.framework */,
+				7CC05B4A2744561D26C81AC3 /* Pods_ExtensionApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,7 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				DC2C0D1A278EB3AA00F6195B /* KeychainAppOne */,
-				DC2C0DB627900CBF00F6195B /* KeychainAppTwo */,
+				DC8772732791FC6D00C7A62C /* ExtensionApp */,
+				DC87727F2791FC6F00C7A62C /* ExtensionApp MessagesExtension */,
 				DC2C0D19278EB3AA00F6195B /* Products */,
 				6B2C1AAE12CBC613102B8260 /* Pods */,
 				79E64020162E65DF841E7814 /* Frameworks */,
@@ -135,7 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				DC2C0D18278EB3AA00F6195B /* KeychainAppOne.app */,
-				DC2C0DB327900CBF00F6195B /* KeychainAppTwo.appex */,
+				DC8772722791FC6D00C7A62C /* ExtensionApp.app */,
+				DC87727A2791FC6F00C7A62C /* ExtensionApp MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,8 +179,8 @@
 		DC2C0D1A278EB3AA00F6195B /* KeychainAppOne */ = {
 			isa = PBXGroup;
 			children = (
+				DC8772AB2792DF3700C7A62C /* KeychainAppOneDebug.entitlements */,
 				DC2C0D7E278EE3EF00F6195B /* SharedKeychainSwift.swift */,
-				DC2C0D2F278EDC9D00F6195B /* KeychainAppOne.entitlements */,
 				DC2C0D1B278EB3AA00F6195B /* AppDelegate.swift */,
 				DC2C0D1D278EB3AA00F6195B /* SceneDelegate.swift */,
 				DC2C0DA9278F2E0F00F6195B /* GetViewController.swift */,
@@ -157,16 +193,24 @@
 			path = KeychainAppOne;
 			sourceTree = "<group>";
 		};
-		DC2C0DB627900CBF00F6195B /* KeychainAppTwo */ = {
+		DC8772732791FC6D00C7A62C /* ExtensionApp */ = {
 			isa = PBXGroup;
 			children = (
-				DC2C0DC527900D3A00F6195B /* KeychainAppTwo.entitlements */,
-				DC2C0DB727900CBF00F6195B /* Media.xcassets */,
-				DC2C0DB927900CBF00F6195B /* ActionViewController.swift */,
-				DC2C0DBB27900CBF00F6195B /* MainInterface.storyboard */,
-				DC2C0DBE27900CBF00F6195B /* Info.plist */,
+				DC8772742791FC6E00C7A62C /* Assets.xcassets */,
 			);
-			path = KeychainAppTwo;
+			path = ExtensionApp;
+			sourceTree = "<group>";
+		};
+		DC87727F2791FC6F00C7A62C /* ExtensionApp MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DC87728F2791FCC800C7A62C /* ExtensionApp MessagesExtensionDebug.entitlements */,
+				DC8772802791FC6F00C7A62C /* MessagesViewController.swift */,
+				DC8772822791FC6F00C7A62C /* MainInterface.storyboard */,
+				DC8772852791FC7100C7A62C /* Assets.xcassets */,
+				DC8772872791FC7100C7A62C /* Info.plist */,
+			);
+			path = "ExtensionApp MessagesExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,30 +230,48 @@
 			buildRules = (
 			);
 			dependencies = (
-				DC2C0DC027900CBF00F6195B /* PBXTargetDependency */,
 			);
 			name = KeychainAppOne;
 			productName = KeychainAppOne;
 			productReference = DC2C0D18278EB3AA00F6195B /* KeychainAppOne.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DC2C0DB227900CBF00F6195B /* KeychainAppTwo */ = {
+		DC8772712791FC6D00C7A62C /* ExtensionApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC2C0DC227900CBF00F6195B /* Build configuration list for PBXNativeTarget "KeychainAppTwo" */;
+			buildConfigurationList = DC87728C2791FC7100C7A62C /* Build configuration list for PBXNativeTarget "ExtensionApp" */;
 			buildPhases = (
-				ABD812C3426731EE3D5B744F /* [CP] Check Pods Manifest.lock */,
-				DC2C0DAF27900CBF00F6195B /* Sources */,
-				DC2C0DB027900CBF00F6195B /* Frameworks */,
-				DC2C0DB127900CBF00F6195B /* Resources */,
+				F34E86540FFF478EC9B519F6 /* [CP] Check Pods Manifest.lock */,
+				DC8772702791FC6D00C7A62C /* Resources */,
+				DC87728B2791FC7100C7A62C /* Embed App Extensions */,
+				022A53453C8E12FF7D9427CA /* Frameworks */,
+				B51460A6CC4F0F5A5C175CB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC87727D2791FC6F00C7A62C /* PBXTargetDependency */,
+			);
+			name = ExtensionApp;
+			productName = ExtensionApp;
+			productReference = DC8772722791FC6D00C7A62C /* ExtensionApp.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		DC8772792791FC6F00C7A62C /* ExtensionApp MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8772882791FC7100C7A62C /* Build configuration list for PBXNativeTarget "ExtensionApp MessagesExtension" */;
+			buildPhases = (
+				DC8772762791FC6F00C7A62C /* Sources */,
+				DC8772772791FC6F00C7A62C /* Frameworks */,
+				DC8772782791FC6F00C7A62C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KeychainAppTwo;
-			productName = KeychainAppTwo;
-			productReference = DC2C0DB327900CBF00F6195B /* KeychainAppTwo.appex */;
-			productType = "com.apple.product-type.app-extension";
+			name = "ExtensionApp MessagesExtension";
+			productName = "ExtensionApp MessagesExtension";
+			productReference = DC87727A2791FC6F00C7A62C /* ExtensionApp MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -227,7 +289,10 @@
 					DC2C0D17278EB3AA00F6195B = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					DC2C0DB227900CBF00F6195B = {
+					DC8772712791FC6D00C7A62C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DC8772792791FC6F00C7A62C = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -246,7 +311,8 @@
 			projectRoot = "";
 			targets = (
 				DC2C0D17278EB3AA00F6195B /* KeychainAppOne */,
-				DC2C0DB227900CBF00F6195B /* KeychainAppTwo */,
+				DC8772712791FC6D00C7A62C /* ExtensionApp */,
+				DC8772792791FC6F00C7A62C /* ExtensionApp MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -262,12 +328,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC2C0DB127900CBF00F6195B /* Resources */ = {
+		DC8772702791FC6D00C7A62C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2C0DB827900CBF00F6195B /* Media.xcassets in Resources */,
-				DC2C0DBD27900CBF00F6195B /* MainInterface.storyboard in Resources */,
+				DC8772752791FC6E00C7A62C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8772782791FC6F00C7A62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8772862791FC7100C7A62C /* Assets.xcassets in Resources */,
+				DC8772842791FC6F00C7A62C /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,26 +370,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ABD812C3426731EE3D5B744F /* [CP] Check Pods Manifest.lock */ = {
+		B51460A6CC4F0F5A5C175CB9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExtensionApp/Pods-ExtensionApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KeychainAppTwo-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-ExtensionApp/Pods-ExtensionApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExtensionApp/Pods-ExtensionApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7DB1713A1190B29F760CDE9 /* [CP] Embed Pods Frameworks */ = {
@@ -335,6 +404,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeychainAppOne/Pods-KeychainAppOne-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F34E86540FFF478EC9B519F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExtensionApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -342,30 +433,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2C0D7F278EE3F000F6195B /* SharedKeychainSwift.swift in Sources */,
+				DC87729F2792000F00C7A62C /* MessagesViewController.swift in Sources */,
 				DC2C0D20278EB3AA00F6195B /* ViewController.swift in Sources */,
+				DC87729C2791FFBA00C7A62C /* SharedKeychainSwift.swift in Sources */,
 				DC2C0DAA278F2E0F00F6195B /* GetViewController.swift in Sources */,
 				DC2C0D1C278EB3AA00F6195B /* AppDelegate.swift in Sources */,
 				DC2C0D1E278EB3AA00F6195B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC2C0DAF27900CBF00F6195B /* Sources */ = {
+		DC8772762791FC6F00C7A62C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6E4CF1279082C100EC52B6 /* SharedKeychainSwift.swift in Sources */,
-				DC2C0DBA27900CBF00F6195B /* ActionViewController.swift in Sources */,
+				DC8772A02792055E00C7A62C /* SharedKeychainSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DC2C0DC027900CBF00F6195B /* PBXTargetDependency */ = {
+		DC87727D2791FC6F00C7A62C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC2C0DB227900CBF00F6195B /* KeychainAppTwo */;
-			targetProxy = DC2C0DBF27900CBF00F6195B /* PBXContainerItemProxy */;
+			target = DC8772792791FC6F00C7A62C /* ExtensionApp MessagesExtension */;
+			targetProxy = DC87727C2791FC6F00C7A62C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -386,10 +477,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		DC2C0DBB27900CBF00F6195B /* MainInterface.storyboard */ = {
+		DC8772822791FC6F00C7A62C /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC2C0DBC27900CBF00F6195B /* Base */,
+				DC8772832791FC6F00C7A62C /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -520,7 +611,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = KeychainAppOne/KeychainAppOne.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeychainAppOne/KeychainAppOneDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RF9T8S9829;
@@ -531,16 +622,17 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.stage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -562,71 +654,117 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.stage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		DC2C0DC327900CBF00F6195B /* Debug */ = {
+		DC8772892791FC7100C7A62C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5995BDDB3E03D8B65BD7B8BA /* Pods-KeychainAppTwo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_ENTITLEMENTS = KeychainAppTwo/KeychainAppTwo.entitlements;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = "ExtensionApp MessagesExtension/ExtensionApp MessagesExtensionDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RF9T8S9829;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeychainAppTwo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = KeychainAppTwo;
+				INFOPLIST_FILE = "ExtensionApp MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ExtensionApp;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.dev.ExtensionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC87728A2791FC7100C7A62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF9T8S9829;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ExtensionApp MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ExtensionApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.ExtensionApp.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC87728D2791FC7100C7A62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75DBD277C45740EFEEDCB2A8 /* Pods-ExtensionApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF9T8S9829;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.ExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DC2C0DC427900CBF00F6195B /* Release */ = {
+		DC87728E2791FC7100C7A62C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA0F47FC0FDFFC638B1906CC /* Pods-KeychainAppTwo.release.xcconfig */;
+			baseConfigurationReference = 1CE01C4CBD6589316D61BF60 /* Pods-ExtensionApp.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_ENTITLEMENTS = KeychainAppTwo/KeychainAppTwo.entitlements;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RF9T8S9829;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KeychainAppTwo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = KeychainAppTwo;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevelopment.rss.app.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.ExtensionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -654,11 +792,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC2C0DC227900CBF00F6195B /* Build configuration list for PBXNativeTarget "KeychainAppTwo" */ = {
+		DC8772882791FC7100C7A62C /* Build configuration list for PBXNativeTarget "ExtensionApp MessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC2C0DC327900CBF00F6195B /* Debug */,
-				DC2C0DC427900CBF00F6195B /* Release */,
+				DC8772892791FC7100C7A62C /* Debug */,
+				DC87728A2791FC7100C7A62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC87728C2791FC7100C7A62C /* Build configuration list for PBXNativeTarget "ExtensionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC87728D2791FC7100C7A62C /* Debug */,
+				DC87728E2791FC7100C7A62C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
